@@ -26,7 +26,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew assembleMiniDebug
       
-    - name: Archive artifacts
+    - name: Archive artifacts (upload)
       uses: actions/upload-artifact@v3
       with:
         name: outputs-apk-minidebug
